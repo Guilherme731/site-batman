@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'Comic-Neue';
+    src: url('fonts/Comic_Neue/ComicNeue-Regular.ttf') format('truetype');
+  }
+
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    color: yellow;
+    background-color: black;
+    display: inline-flex;
+    height: 100px;
+}
+
+#logo-box{
+    align-content: center;
+    margin-left: 5px;
+}
+
+#logo{
+    height: 70px;
+    
+}
+
+#header-title{
+    margin-left: 15px;
+    align-content: center;
+    font-family: 'Comic-Neue';
+}
+
+#menu{
+    margin-left: auto;
+    margin-right: 30px;
+    
+}
+
+#menu a{
+    margin-left: 20px;
+    display: inline-grid;
+    color: yellow;
+    text-decoration: none;
+    font-size: 20px;
+    height: 100%;
+    align-content: center;
+}
+
+
+
+#about{
+    background-image: url("img/batmanbackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    padding-top: 300px;
+    padding-left: 35px;
+    color: yellow;
+}
+#about h2{
+    font-size: 50px;
+    font-family: Comic-Neue;
+}
+
+#about-text{
+    width: 700px;
+    font-size:
+     25px;
+    background-color: rgba(128, 128, 128, 0.426);
+    border-radius: 20px;
+}
+
+
+
+#allies{
+    background-color: gray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+    place-items: center;
+}
+
+#allies h2{
+    margin-top: 0;
+    color: yellow;
+    font-size: 45px;
+    font-family: Comic-Neue;
+}
+
+#separador{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.contents{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+.content{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    color: yellow;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 5px;
+    border: 5px solid rgb(63, 63, 63);
+}
+
+.content img{
+    height: 250px;
+    border-radius: 3px;
+}
+
+#villains{
+    background-color: gray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+    place-items: center;
+}
+
+#villains h2{
+    margin-top: 0;
+    color: yellow;
+    font-size: 45px;
+    font-family: Comic-Neue;
+}
+
+
+footer{
+    background-color: black;
+    height: 85px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+
+footer p{
+    margin: 0;
+    padding: 10px 10px;
+    color: yellow;
+}
+
+#social-info{
+    margin-left: auto;
+    padding-right: 20px;
+    text-align: center;
+}
+
+
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+  
+body::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(219, 216, 0);
+    border-radius: 20px;
+    border: 2px solid gray;
+}
